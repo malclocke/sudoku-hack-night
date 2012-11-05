@@ -1,0 +1,19 @@
+Sudoku Solver
+-------------
+Games https://github.com/romario333/opensudoku/blob/master/OpenSudoku/src/cz/romario/opensudoku/db/DatabaseHelper.java
+
+Attendees
+---------
+Malcolm Locke
+Matt Wratt
+Wayne Carter
+Ben Tillman
+Mark Stuart
+Mark Haylock
+Bry Ashman
+Kale Worsley
+
+Other ideas
+-----------
+Solar system simulator
+Coreutils / POSIX utils
