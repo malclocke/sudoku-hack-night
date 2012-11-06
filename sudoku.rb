@@ -18,8 +18,11 @@ module Sudoku
     end
 
     def validate(input)
-      if input.length != 81 or input =~ /[^0-9]/
-        raise InvalidSyntax
+      if input.length != 81
+        raise InvalidSyntax, "Solution must be 81 characters long, is #{input.length}"
+      end
+      if input =~ /[^0-9]/
+        raise InvalidSyntax, "Solution must only contain the characters 0-9"
       end
     end
 
@@ -62,6 +65,10 @@ module Sudoku
       x = (number / 3)*3
       y = (number % 3)*3
       matrix.minor(x..(x+2),y..(y+2))
+    end
+
+    def to_s
+      'OK'
     end
 
   end
