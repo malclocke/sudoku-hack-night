@@ -1,5 +1,5 @@
 require 'sinatra'
-require_relative 'sudoku'
+require './sudoku'
 
 get '/' do
   @puzzles = []
