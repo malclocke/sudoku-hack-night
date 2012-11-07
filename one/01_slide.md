@@ -84,4 +84,4 @@ has a unique solution.
 
 3 files (easy, medium and hard), 30 puzzles per file, 1 puzzle per line
 
-Courtesy of [https://github.com/romario333/opensudoku](https://github.com/romario333/opensudoku)
+Check your solutions at [http://solutionator.herokuapp.com/](http://solutionator.herokuapp.com/)
